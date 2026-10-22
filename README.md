@@ -6,3 +6,6 @@ Füge hier deine ECHTEN Screenshots aus Cisco Packet Tracer ein:
 5. acl_test.png – erfolgreicher Test, dass Gäste interne Netze nicht erreichen
 
 Die bereitgestellte Grafik unter docs/topology.png ist ein Topologieplan, kein Screenshot aus Packet Tracer.
+## Network Topology
+
+![Enterprise Network Topology](docs/images/enterprise-network-topology.png)
