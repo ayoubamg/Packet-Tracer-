@@ -1,0 +1,50 @@
+enable
+configure terminal
+hostname SW1
+no ip domain-lookup
+!
+vlan 10
+ name ADMINISTRATION
+vlan 20
+ name IT
+vlan 30
+ name MITARBEITER
+vlan 40
+ name GAESTE
+!
+interface FastEthernet0/1
+ description TRUNK_TO_R1_G0/0
+ switchport mode trunk
+!
+interface FastEthernet0/2
+ description SERVER_DNS_WEB
+ switchport mode access
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface FastEthernet0/3
+ description PC_ADMIN
+ switchport mode access
+ switchport access vlan 10
+ spanning-tree portfast
+!
+interface FastEthernet0/4
+ description PC_IT
+ switchport mode access
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface FastEthernet0/5
+ description PC_MITARBEITER
+ switchport mode access
+ switchport access vlan 30
+ spanning-tree portfast
+!
+interface FastEthernet0/6
+ description PC_GAST
+ switchport mode access
+ switchport access vlan 40
+ spanning-tree portfast
+!
+end
+write memory
