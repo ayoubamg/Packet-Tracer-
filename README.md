@@ -8,4 +8,4 @@ Füge hier deine ECHTEN Screenshots aus Cisco Packet Tracer ein:
 Die bereitgestellte Grafik unter docs/topology.png ist ein Topologieplan, kein Screenshot aus Packet Tracer.
 ## Network Topology
 
-![Enterprise Network Topology](Docs/Picture/TopologiedesUnternehmensnetzwerks.png)
+![image alt](https://github.com/ayoubamg/Packet-Tracer-/blob/d787c154585d5f94a9b5cc6bc69dc2b0796e8e21/Docs/Picture/Topologie%20des%20Unternehmensnetzwerks.png)
